@@ -1,0 +1,199 @@
+body{
+    font-family: 'PT Sans', sans-serif;
+    font-size: 13px;
+    border-radius: 0px; 
+    border:none;
+}
+
+/*HEADER*/
+
+.header {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: url('../img/ideas.jpg') no-repeat center center scroll;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+.header-name{
+    font-size: 2.5em;
+    font-weight: bold;
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 40%;
+}
+
+.header-occupation{
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #74A8E8;
+    margin-bottom: 10px;
+    border-radius: 40%;
+}
+
+.header-tagline{
+    font-weight: bold;
+    color: black;
+    border-radius: 40%;
+}
+
+.profile-image{
+    margin: auto;
+    max-height: 250px;
+    border: 1px solid #8c8c8c;
+}
+
+/*HEADER*/
+
+/*ABOUT*/
+
+.about-info{
+    text-align: left;
+    border-bottom: dashed 1px;
+    padding: 10px 10px 10px 0px;
+}
+
+.about-img{
+    max-width: 450px;
+    min-width: 300px;
+    border: 6px solid #8c8c8c;
+}
+
+.about-img-container{
+    float: center;
+}
+
+.row.row-eq-height {
+    display: flex;
+}
+
+@media only screen and (max-width: 850px) {
+    .about-img-container{
+        float: none;
+    }
+    .row.row-eq-height {
+        display: initial;
+    }
+}
+
+
+/*ABOUT*/
+
+
+
+/*MY EDUCATION*/
+
+#myeducation{
+    background-color: gray;
+    min-height: 500px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20%;
+    color: white;
+}
+
+.myeducation-container{
+    padding: 30px;
+    text-align: left;
+}
+
+.myeducation-year{
+    border-left: 4px solid #ff8738;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.myeducation-underline{
+    border-color: black;
+}
+
+/*MY EDUCATION*/
+
+
+/*MY SKILL*/
+
+.myskill-bg-image {
+    display: block;
+    text-align: center;
+    background: url('../img/bg1.jpg') no-repeat center center scroll;    
+    background-size: cover;
+    height: inherit;
+    margin: 10px 10px 10px 10px;
+    border-radius: 20%;
+}
+
+.myskill-title{
+    color: white;
+}
+
+.myskill-container{
+    padding: 30px;
+    text-align: left;
+    color: white;
+}
+
+.myskill-progress-title{
+    padding: 10px 10px 10px 0px;
+}
+
+/*MY SKILL*/
+
+/*CONTACT*/
+
+#contact{
+    padding-bottom: 50px;
+}
+
+.contact-input{
+    border-radius: 0px;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.contact-button{
+    background-color: black;
+    color: white;
+    border-radius: 0px;
+    width: 100%;
+}
+
+/*CONTACT*/
+
+
+/*FOOTER*/
+
+footer {
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+/*FOOTER*/
+
+
+/*GENERAL*/
+
+hr {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.section{
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.section-title{
+    font-size: 2em;
+    font-weight: bold;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+
+. {
+    image
+}
+
+/*GENERAL*/
